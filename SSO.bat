@@ -10,7 +10,7 @@ start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" -new-window htt
 
 timeout /t 5 /nobreak >nul
 
-CScript //nologo //E:JScript "%~F0"  %username%{enter}  %password%{enter}"
+CScript //nologo //E:JScript "%~F0"  %username%{enter}"
 
 timeout 2
 
